@@ -4,7 +4,7 @@ const ConfirmationModal = ({title, message, successButtonName,closeModal,modalDa
     return (
         <div>
             {/* The button to open modal */}
-            <label htmlFor="Confirmation-modal" className="btn">open modal</label>
+            
 
             {/* Put this part before </body> tag */}
             <input type="checkbox" id="Confirmation-modal" className="modal-toggle" />
